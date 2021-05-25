@@ -24,6 +24,8 @@
     <h2>uview-ui组件</h2>
     <u-button class="custom-style">雪月夜</u-button>
     <u-rate :count="count" v-model="value"></u-rate>
+
+    <u-action-sheet :list="list" v-model="show"></u-action-sheet>
   </view>
 </template>
 
@@ -38,9 +40,27 @@ export default {
       title: 'Hello',
       count: 4,
       value: 2,
+      list: [
+        {
+          text: '点赞',
+          color: 'blue',
+          fontSize: 28,
+        },
+        {
+          text: '分享',
+        },
+        {
+          text: '评论',
+        },
+      ],
+      show: true,
     };
   },
-  onLoad() {},
+  onLoad() {
+    // test
+    // 或者(二者等价)
+    console.log("this.$u", this.$u);
+  },
   methods: {},
 };
 </script>

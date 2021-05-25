@@ -1,0 +1,74 @@
+/* 每个页面公共css */
+/* 注意要写在第一行，同时给style标签加入lang="scss"属性 */
+@import 'uview-ui/index.scss';
+
+// 内置样式的使用 https://www.uviewui.com/components/common.html
+
+// 常用的内置样式：
+
+// u-line-1,u-line-2,u-line-3,u-line-4,u-line-5五个类名在文字超出内容盒子时，分别只显示一行、两行、三行、四行、五行+省略号。
+
+// uView为此提供了一个类u-font-x，这个x为10-40之间(包含10和40)，当x >= 10 && x < 20时，表现为px性质，当x >= 20 && x <= 40时，表现为rpx性质。
+// 1. 这里边没有说明超过20px的字体的样式，这里在不同的区间取的单位也不同，所以这里u-font-16和u-font-32，其实是差不多的。
+// 2. 也就是说这里设置超过40是没效果的；
+
+// uView为文字对齐定义了3个类，分别如下：.u-text-left/.u-text-center/.u-text-right
+
+// 定位方式：.u-relativ|.u-rela/.u-absolute|.u-abso
+
+// button，u-reset-button
+
+// 内外边距的简写形式，这里的单位都是rpx
+
+// u-padding-x == u-p-x
+// u-padding-left-x == u-p-l-x
+// u-padding-top-x == u-p-t-x
+// u-padding-right-x == u-p-r-x
+// u-padding-bottom-x == u-p-b-x
+// u-margin-x == u-m-x
+// u-margin-left-x == u-m-l-x
+// u-margin-top-x == u-m-t-x
+// u-margin-right-x == u-m-r-x
+// u-margin-bottom-x == u-m-b-x
+
+// .u-padding-35/.u-margin-left-26
+
+// flex布局
+
+// u-flex，行居中，因为u-flex是一个集合类，如果你不想要其中的某个属性，如align-items: center ，可以通过右边的类名覆盖它。
+// u-flex-wrap/u-flex-nowrap
+// u-col-top/u-col-center/u-row-center/u-row-left/u-row-between/u-row-around
+// u-flex-1
+
+// u-border表示给元素添加四周的边框，u-border-top为上边框，u-border-right为右边框， u-border-bottom为下边框，u-border-left为左边框。
+// 0.5px的宽度
+
+// 可修改的主题变量
+// $u-type-primary: #2979ff;
+// $u-type-error: #fa3534;
+// $u-type-warning: #ff9900;
+// $u-type-success: #19be6b;
+// $u-type-info: #909399;
+// $u-type-primary-light: #ecf5ff;
+// $u-type-error-light: #fef0f0;
+// $u-type-warning-light: #fdf6ec;
+// $u-type-success-light: #dbf1e1;
+// $u-type-info-light: #f4f4f5;
+// $u-type-primary-dark: #2b85e4;
+// $u-type-error-dark: #dd6161;
+// $u-type-warning-dark: #f29100;
+// $u-type-success-dark: #18b566;
+// $u-type-info-dark: #82848a;
+// $u-type-primary-disabled: #a0cfff;
+// $u-type-error-disabled: #fab6b6;
+// $u-type-warning-disabled: #fcbd71;
+// $u-type-success-disabled: #71d5a1;
+// $u-type-info-disabled: #c8c9cc;
+// $u-main-color: #303133;
+// $u-content-color: #606266;
+// $u-tips-color: #909399;
+// $u-light-color: #c0c4cc;
+// $u-border-color: #e4e7ed;
+// $u-bg-color: #f3f4f6;
+// $u-form-item-border-color: #dcdfe6;
+// $u-form-item-height: 70rpx;

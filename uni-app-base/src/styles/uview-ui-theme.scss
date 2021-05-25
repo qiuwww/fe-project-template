@@ -2,4 +2,59 @@
 // 这里可以设置主体，控制整体的样式
 @import 'uview-ui/theme.scss';
 
-// 内置样式 https://www.uviewui.com/components/common.html
+// color:https://www.uviewui.com/components/color.html
+
+// 这里可以修改uview-ui的默认样式，最好都与uni-app的色调统一起来
+
+// uView提供了四个关于文字颜色的scss变量名:
+
+// $u-main-color: #303133;
+// $u-content-color: #606266;
+// $u-tips-color: #909399;
+// $u-light-color: #c0c4cc;
+
+// main-color主要颜色，可以用于标题等需要重颜色的场景 -> $u-main-color/u-main-color
+// content-color内容颜色，可以用于一般性内容的场景
+// tips-color提示颜色，可以用于浅颜色的提示语的场景
+// light-color为比tips-color更浅的颜色，可以和tips-color搭配使用
+
+// View提供五个关于主题的scss颜色变量，如有需要，可合理使用:
+// $u-type-primary为蓝色，uView的主色彩，代表热情，友好，积极，向上之意。
+// $u-type-warning为黄色，代表警告之意。
+// $u-type-success为绿色，代表成功之意。
+// $u-type-error为红色，代表错误之意。
+// $u-type-info为灰色，代表一般信息之意。
+
+// 而他们又有对应的disabled、dark和light状态，分别表示对应的禁止，加深和变浅的对应颜色。
+
+$u-type-primary: $uni-color-primary;
+
+/* 变量的定义，该部分uView已全局引入，无需您编写，这里如果重制primary，相应的各种触发颜色也要调整 */
+// $u-type-warning: #ff9900;
+// $u-type-warning-disabled: #fcbd71;
+// $u-type-warning-dark: #f29100;
+// $u-type-warning-light: #fdf6ec;
+
+// $u-type-success: #19be6b;
+// $u-type-success-disabled: #71d5a1;
+// $u-type-success-dark: #18b566;
+// $u-type-success-light: #dbf1e1;
+
+// $u-type-error: #fa3534;
+// $u-type-error-disabled: #fab6b6;
+// $u-type-error-dark: #dd6161;
+// $u-type-error-light: #fef0f0;
+
+// $u-type-info: #909399;
+// $u-type-info-disabled: #c8c9cc;
+// $u-type-info-dark: #82848a;
+// $u-type-info-light: #f4f4f5;
+
+// 背景色
+// $u-bg-color: #f3f4f6;
+
+$u-bg-color: $uni-bg-color;
+
+// border颜色
+// $u-border-color: #e4e7ed;
+$u-border-color: $uni-border-color;

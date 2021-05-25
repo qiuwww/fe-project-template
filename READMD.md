@@ -35,3 +35,11 @@ $ yarn create @umijs/umi-app
 # 创建页面
 $ mpx umi g page demo/index --typescript
 ```
+
+## 文件/文件夹命名规则
+
+1. 文件夹；
+   1. 小写：表示模块；
+   2. 大写，内部需要有 index.tsx 文件，用来表示一个主要页面；
+2. 文件；
+   1. 大写开头：表示一个页面组件；

@@ -10,13 +10,88 @@
   },
   "pages": [
     //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
     {
       "path": "pages/index/index",
       "style": {
         "navigationBarTitleText": "uni-app-base"
       }
+    },
+    {
+      "path": "pages/icons/index",
+      "style": {
+        "navigationBarTitleText": "icons"
+      }
+    },
+
+    {
+      "path": "pages/custom-component/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+
+    {
+      "path": "pages/start/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+
+    {
+      "path": "pages/user-center/index",
+      "style": {
+        "navigationBarTitleText": "user-center"
+      }
+    },
+    {
+      "path": "pages/component/index",
+      "style": {
+        "navigationBarTitleText": "components",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/api/index",
+      "style": {}
     }
   ],
+  "tabBar": {
+    "color": "#000000",
+    "fontSize": "14px",
+    "height": "58px",
+    "spacing": "6px",
+    "iconWidth": "23px",
+    "selectedColor": "#d4b106",
+    "borderStyle": "#F0F0F0",
+    "backgroundColor": "#FAFAFA",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home_active.png",
+        "text": "home"
+      },
+      {
+        "pagePath": "pages/component/index",
+        "iconPath": "static/tabbar/component.png",
+        "selectedIconPath": "static/tabbar/component_active.png",
+        "text": "components"
+      },
+      {
+        "pagePath": "pages/api/index",
+        "iconPath": "static/tabbar/api.png",
+        "selectedIconPath": "static/tabbar/api_active.png",
+        "text": "api"
+      },
+      {
+        "pagePath": "pages/user-center/index",
+        "iconPath": "static/tabbar/user-center.png",
+        "selectedIconPath": "static/tabbar/user-center_active.png",
+        "text": "user-center"
+      }
+    ]
+  },
   "globalStyle": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app-base",
