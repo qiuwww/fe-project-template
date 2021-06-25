@@ -82,6 +82,12 @@ uni-ui 不包括基础组件，它是基础组件的补充。
 2. [uniapp，字体文件](https://uniapp.dcloud.io/frame?id=%e5%ad%97%e4%bd%93%e5%9b%be%e6%a0%87)
 3. [uView 很 nice](https://www.uviewui.com/components/icon.html#icon-%E5%9B%BE%E6%A0%87)
 
+### CustomIcon扩展自定义图标库
+
+[参考文档](https://www.uviewui.com/guide/customIcon.html)
+
+https://www.shuzhiduo.com/A/6pdD2wyXJw/
+
 ## step 8 一个完整的接口请求
 
 <!-- todo -->
