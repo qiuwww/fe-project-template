@@ -45,19 +45,3 @@ $ mpx umi g page demo/index --typescript
    2. 大写，内部需要有 index.tsx 文件，用来表示一个主要页面；
 2. 文件；
    1. 大写开头：表示一个页面组件；
-
-## webpack-project-cli
-
-脚手架的方式使用模板
-
-## TODO
-
-### work
-
-1. 各种技术/端的开发范式；
-   1. react+ts+antd+hooks；
-   2. vue2.0；
-   3. vue3.0；
-   4. h5；
-   5. 小程序 uni-app；
-2. 提取以前的开发经验作为范式；
